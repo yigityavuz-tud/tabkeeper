@@ -1,0 +1,9 @@
+bucket_name: "YOUR_BUCKET_NAME"
+api_key: "YOUR_API_KEY"
+base_url: "https://api.deepseek.com"
+prompt_1: "I'm passing you some item names from my groceries receipt. There are some abbreviations in them. Rewrite the item names in explicit format to the best of your knowledge. Return them as a Python list. Don't write anything other than the list."
+prompt_2: "I'm passing you some item names from my groceries receipt. Please find maximum 10 categories that can contain all of the items. Return them as a Python list. Don't write anything other than the list."
+prompt_3: "I'm passing you some item names from my groceries receipt and 10 category names in which you can fit every item. Please return a Python dictionary in which the keys are the items and the values are the corresponding categories. Don't write anything other than the dictionary."
+output_filename: "receipts_decoded/shopping_history.csv"
+pic_format: ".JPEG"
+verbose: true

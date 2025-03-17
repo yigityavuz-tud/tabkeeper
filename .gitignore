@@ -1,0 +1,50 @@
+# Ignore data files
+data/
+*.csv
+*.json
+*.parquet
+*.xlsx
+
+# Ignore model files
+models/
+*.pkl
+*.joblib
+*.h5
+
+# Ignore environment files
+.env
+venv/
+.env/
+.venv/
+*.env
+
+# Ignore IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore inspection files
+*.ipynb
+
+# Ignore sensitive config files
+config.yaml
